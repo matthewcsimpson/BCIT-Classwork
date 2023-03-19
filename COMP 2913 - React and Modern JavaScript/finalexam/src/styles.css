@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 59%,
+    rgba(77, 86, 88, 1) 100%
+  );
+  color: white;
+}
+
+p,
+li,
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.big {
+object-fit: cover;
+display: block;
+width: auto;
+height: 400px;
+margin: 20px;
+}
+
+.bigbig {
+    margin: 20px;
+}
+
+.bigdetails {
+  display: flex;
+  height: 550px;
+}
