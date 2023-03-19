@@ -1,0 +1,60 @@
+{
+    "size":[
+        {
+            "name" : "Personal",
+            "cost" : 8
+        },
+        {
+            "name" : "Medium",
+            "cost" : 10
+        },
+        {
+            "name" : "Large",
+            "cost" : 14
+        }
+    ],
+    "toppings": [
+      {
+        "name": "Pineapple",
+        "cost": 1
+      },
+      {
+        "name": "Pepperoni",
+        "cost": 1
+      },
+      {
+        "name": "Cheeze",
+        "cost": 1
+      },
+      {
+        "name": "Mushrooms",
+        "cost": 1
+      },
+      {
+        "name": "Peppers",
+        "cost": 2
+      },
+      {
+        "name": "Bacon",
+        "cost": 2
+      },
+      {
+        "name": "Olives",
+        "cost": 1
+      }
+    ],
+    "crusts": [
+      {
+        "name": "White",
+        "cost": 2
+      },
+      {
+        "name": "Whole wheat",
+        "cost": 4
+      },
+      {
+        "name": "Vegan",
+        "cost": 6
+      }
+    ]
+  }

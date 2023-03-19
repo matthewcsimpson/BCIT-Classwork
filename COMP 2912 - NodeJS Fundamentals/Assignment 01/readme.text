@@ -1,0 +1,8 @@
+Assignment 1
+Matthew Simpson
+A00820997
+
+1. As of right now, validation is not working.  
+2. if you select menu options and input valid customer details and submit it will take you to a confirmation page.  
+confirming will take you to a third page with details and also generates a JSOn file for the order. 
+

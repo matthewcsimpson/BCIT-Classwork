@@ -1,0 +1,33 @@
+{
+  "sizes": [
+    { "size": "Large", "price": 14 },
+    { "size": "Medium", "price": 10 },
+    { "size": "Small", "price": 8 }
+  ],
+
+  "crust": [
+    { "type": "White" },
+    { "type": "Whole Wheat" },
+    { "type": "Vegan" }
+  ],
+
+  "meatToppings": [
+    { "name": "Pepporoni" },
+    { "name": "Beef" },
+    { "name": "Sausage" },
+    { "name": "Chicken" },
+    { "name": "Bacon" }
+  ],
+
+  "veggieToppings": [
+    { "name": "Onion" },
+    { "name": "Green Pepper" },
+    { "name": "Mushroom" },
+    { "name": "Olive" },
+    { "name": "Tomato" }
+  ],
+
+  "meatToppingPrice": 2,
+  "veggieToppingPrice": 3,
+  "salesTax": 0.12
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Pizza Ordering</title>
+</head>
+
+<body>
+    <h2>{{title}}</h2>
+    <h1>Order a Pizza!</h1>
+    <form method="POST" action="/order">
+
+    <h2>Size?</h2>
+    {{#each pizzaOptions.size}}
+        <input type="radio" name="size" id="{{name}}" value="{{name}}" required>
+        <label for="{{name}}">{{name}} (${{cost}})</label>
+    {{/each}}
+
+    <h2>Crust Type?</h2>
+    {{#each pizzaOptions.crusts}}
+        <input type="radio" name="crust" id="{{name}}" value="{{name}}" required>
+        <label for="{{name}}">{{name}} (${{cost}})</label>
+    {{/each}}
+
+    <h2>Toppings?</h2>
+    {{#each pizzaOptions.toppings}}
+        <input type="checkbox" name="toppings" id='{{name}}' value="{{name}}">
+        <label for="{{name}}"> {{name}} (${{cost}})</label><br>
+    {{/each}}    
+
+    <h2>Customer details</h2>
+    <input type="text" name="customerName" placeholder="enter your name" required>
+     {{#if nameErr}}
+        <p class="highlight">{{nameErr}}</p>
+    {{/if}}
+    <br>
+
+    <input type="text" name="phoneNumber" placeholder="604-123-1234" required> 
+    {{#if phoneErr}}
+        <p class="highlight">{{phoneErr}}</p>
+    {{/if}}
+    <br>
+    
+    <input type="text" name="emailAddress" placeholder="you@email.com" required>
+     {{#if emailErr}}
+        <p class="highlight">{{emailErr}}</p>
+    {{/if}}
+    <br>
+    
+    <input type="text" name="deliverAddress" placeholder="1234 any street" required><br>
+    
+    <input type="submit" name="submit" value="Submit">
+    </form>   
+
+
+</body>
+</html>

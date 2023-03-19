@@ -1,0 +1,10 @@
+ca/bcit/comp3656/assign/domain/ResponseCodes.class
+ca/bcit/comp3656/assign/database/DatabaseDetails.class
+ca/bcit/comp3656/assign/GreetingServlet.class
+ca/bcit/comp3656/assign/database/UserDAO.class
+ca/bcit/comp3656/assign/domain/FormattedTime.class
+ca/bcit/comp3656/assign/domain/Validator.class
+ca/bcit/comp3656/assign/database/DAO.class
+ca/bcit/comp3656/assign/database/DBUtil.class
+ca/bcit/comp3656/assign/domain/User.class
+ca/bcit/comp3656/assign/domain/Constants.class

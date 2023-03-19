@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Confirmation Page</title>
+    </head>
+    <body>
+
+        <h1>ORDER CONFIRMATION</h1>
+        <form method="POST" action="/send">
+        <h2>Order Details</h2>
+        <p>Size: {{orderDetails.size}} <input type="hidden" id="size" name="size" value="{{orderDetails.size}}"></p>
+        <p>Crust: {{orderDetails.crust}} <input type="hidden" id="crust" name="crust" value= "{{orderDetails.crust}}"></p>
+        <p>Toppings:</p>
+        <ul>
+        {{#each orderDetails.toppings}}
+        <li>{{this}} <input type="hidden" id="toppings" name="toppings" value="{{this}}"></li>
+        {{/each}}
+        </ul>
+        <p>Order Total: ${{orderDetails.totalPrice}} <input type="hidden" id="totalPrice" name="totalPrice" value="{{orderDetails.totalPrice}}"></p>
+        <h2>Customer Details</h2>
+        <p>Name: {{orderDetails.customerName}} <input type="hidden" id="name" name="name" value="{{orderDetails.customerName}}"></p>
+        <p>Phone: {{orderDetails.phoneNumber}} <input type="hidden" id="phoneNumber" name="phoneNumber" value="{{orderDetails.phoneNumber}}"></p>
+        <p>Email: {{orderDetails.emailAddress}} <input type="hidden" id="emailAddress" name="emailAddress" value="{{orderDetails.emailAddress}}"></p>
+        <p>Address: {{orderDetails.deliverAddress}} <input type="hidden" id="deliverAddress" name="deliverAddress" value="{{orderDetails.deliverAddress}}"></p>
+        <input type="submit" name="confirm" value="confirm">
+        <input type="button" name="cancel" value="cancel" onclick="window.location.href='/'">
+        </form>
+        
+        
+    </body>
+</html>

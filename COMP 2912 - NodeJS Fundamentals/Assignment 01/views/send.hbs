@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+<body>
+    <div class="wrap">
+        <h2>Your pizza is on its way <span class="highlight">{{orderSpecifics.name}}</span></h2>
+        <h3>Pizza details:</h3>
+        <p>Size: {{orderSpecifics.size}} </p>
+        <p>Crust: {{orderSpecifics.crust}} </p>
+        <p>Toppings:</p>
+        <ul>
+        {{#each orderSpecifics.toppings}}
+        <li>{{this}} </li>
+        {{/each}}
+        </ul>
+
+        <p>Order Total: ${{orderSpecifics.totalPrice}} </p>
+        <h3>Delivery Details</h3>
+        <p>Phone: {{orderSpecifics.phoneNumber}} </p>
+        <p>Email: {{orderSpecifics.emailAddress}} </p>
+        <p>Address: {{orderSpecifics.deliverAddress}}</p>
+        <p>Delivery Time: {{orderSpecifics.orderID}}</p>
+
+        <p class="highlight">expect your pizza in 30 minutes or less!</p>
+
+
+    </div>
+
+
+</body>
+
+</html>

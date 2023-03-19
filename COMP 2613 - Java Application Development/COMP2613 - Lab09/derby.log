@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Sun Jun 16 21:54:12 PDT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-016b-63c9-1a5c-000006c029c0 
+on database directory /Users/matthew/Google Drive/School/BCIT/COMP 2613 - Java Application Development/New Workspace/a00820997 - COMP2613 - Lab09/derby_jdbc_test  with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4b85612c 
+Loaded from file:/Users/matthew/Google%20Drive/School/BCIT/COMP%202613%20-%20Java%20Application%20Development/New%20Workspace/a00820997%20-%20COMP2613%20-%20Lab09/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.1+13-LTS
+user.dir=/Users/matthew/Google Drive/School/BCIT/COMP 2613 - Java Application Development/New Workspace/a00820997 - COMP2613 - Lab09
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
