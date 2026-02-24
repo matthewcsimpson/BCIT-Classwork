@@ -4,7 +4,7 @@
  * Date: May 30, 2019
  * Time: 12:25:37 p.m.
  *
- * @author Matthew Simpson / A00820997
+ * @author Matthew Simpson
  */
 
 package a00820997.bookstore;

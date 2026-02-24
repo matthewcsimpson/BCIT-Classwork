@@ -1,7 +1,7 @@
 /**
  * COMP 1451 - Assignment Three
  * 
- * @author Matthew Simpson / A00820997
+ * @author Matthew Simpson
  * @date Winter 2019
  */
 

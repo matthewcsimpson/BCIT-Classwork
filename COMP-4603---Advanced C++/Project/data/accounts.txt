@@ -1,0 +1,3 @@
+a1,u1,Savings,1000.000000
+a2,u1,Chequing,1000.000000
+a3,u2,Savings,10000.000000

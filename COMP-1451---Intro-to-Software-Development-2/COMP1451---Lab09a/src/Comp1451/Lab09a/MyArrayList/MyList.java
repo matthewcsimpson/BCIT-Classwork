@@ -3,7 +3,7 @@ package Comp1451.Lab09a.MyArrayList;
 /**
  * Write a description of interface List here.
  * 
- * @author Matthew Simpson / A00820997
+ * @author Matthew Simpson
  * @version Winter 2019
  */
 public interface MyList {

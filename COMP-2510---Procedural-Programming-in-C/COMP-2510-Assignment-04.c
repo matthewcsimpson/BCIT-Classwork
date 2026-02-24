@@ -1,6 +1,6 @@
 /*
 	COMP 2510 / Assignment 4
-	Matthew Simpson / A00820997
+	Matthew Simpson
 */
 
 #include <stdio.h>
