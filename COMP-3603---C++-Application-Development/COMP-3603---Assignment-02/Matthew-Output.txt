@@ -1,0 +1,113 @@
+Output the object just created.
+
+The Date is:
+1/13/2016
+
+The times are:
+10:30:00
+10:30:10
+10:30:20
+10:30:30
+10:30:40
+Output the object dTsObj2 just created using copy ctor.
+Note that 5 seconds has been added to each Time object.
+
+The Date is:
+1/13/2016
+
+The times are:
+10:30:05
+10:30:15
+10:30:25
+10:30:35
+10:30:45
+Output the original object again to show it was not modified/corrupted
+when the object created by copy ctor was modified.
+
+The Date is:
+1/13/2016
+
+The times are:
+10:30:00
+10:30:10
+10:30:20
+10:30:30
+10:30:40
+Output the object just created dynamically.
+
+The Date is:
+12/31/1999
+
+The times are:
+23:00:00
+23:00:05
+23:00:10
+23:00:15
+23:00:20
+23:00:25
+23:00:30
+23:00:35
+23:00:40
+23:00:45
+Output dTsObj2 after being created again using copy ctor.
+
+The Date is:
+12/31/1999
+
+The times are:
+23:00:00
+23:00:05
+23:00:10
+23:00:15
+23:00:20
+23:00:25
+23:00:30
+23:00:35
+23:00:40
+23:00:45
+Output dTsObj2 after being overwritten by assignment operator.
+
+The Date is:
+1/13/2016
+
+The times are:
+10:30:00
+10:30:10
+10:30:20
+10:30:30
+10:30:40
+Output the object one last time.
+Note that 5 seconds has been added to each Time object.
+
+The Date is:
+1/13/2016
+
+The times are:
+10:30:05
+10:30:15
+10:30:25
+10:30:35
+10:30:45
+Output the original object again to show it was not modified/corrupted
+when the object overwritten by assignment operator was modified.
+
+The Date is:
+1/13/2016
+
+The times are:
+10:30:00
+10:30:10
+10:30:20
+10:30:30
+10:30:40
+Output the original object one last time proving that self assignment did not corrupt it.
+
+The Date is:
+1/13/2016
+
+The times are:
+10:30:00
+10:30:10
+10:30:20
+10:30:30
+10:30:40

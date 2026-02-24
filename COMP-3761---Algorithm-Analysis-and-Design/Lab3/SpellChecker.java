@@ -1,7 +1,7 @@
 /**
 * COMP 3671 - Algorithms
 * Lab 3
-* Matthew Simpson / A00820997
+* Matthew Simpson / 
 * June 8 2025
 */
 

@@ -3,7 +3,7 @@ package Comp1451.Lab09a.MyArrayList;
 /**
  * MyArrayList - an imlementation of an array list based on a Java array.
  * 
- * @author Matthew Simpson / A00820997
+ * @author Matthew Simpson / 
  * @version Winter 2019
  */
 public class MyArrayList implements MyList {
